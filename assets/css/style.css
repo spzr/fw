@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.auth-box{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.nav-item{
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.lang{
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.header{
+    margin-top: 100px;
+}
+
+.hero{
+    align-items: center;
+}
+
+.hero .title h1{
+    font-size: 3rem;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.service_item_box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.service_item img{
+    width: 100%;
+    padding: 15px;
+}
