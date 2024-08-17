@@ -11,10 +11,11 @@ img{
     height: auto;
 }
 
+/* #005aff */
 /* global */
 .section_title_box{
     text-align: center;
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
 }
 
 .section_title_box .pre_title{
@@ -29,9 +30,16 @@ img{
     font-size: 1rem;
 }
 
+.section_title_box .section_title{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .section_title_box .section_title h2{
     font-size: 2.4rem;
+    text-align: center;
 }
+
 
 /* navigation */
 
@@ -80,6 +88,12 @@ img{
 .services_box{
     max-width: 700px;
     margin: 20px auto;
+    justify-content: center;
+}
+
+.services_item{
+    max-width: 150px;
+    
 }
 
 .services_item_box {
@@ -91,7 +105,7 @@ img{
     transform: scale(1.1);
 }
 
-.services_item{
+.services_body{
     background: red;
     padding: 20px;
     border-radius: 10px;
@@ -166,3 +180,113 @@ img{
     font-size: 2.4rem;
 }
 /* end why us */
+
+/* how it works */
+
+.how_it_works {
+    margin-top: 100px;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.how_it_works .section_title_box{
+    margin: 20px 0 50px 0;
+}
+
+
+.how_it_works_step {
+    margin-bottom: 30px;
+}
+
+.icon_box {
+    font-size: 50px;
+    color: #1abc9c;
+    margin-bottom: 20px;
+}
+
+.how_it_works_step h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.how_it_works_step p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btns_box_group{
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    gap:10px
+}
+/* end how it works */
+
+
+/* services_seo_menu */
+.services_seo_menu{
+    margin-top: 150px;
+}
+.faq-nav {
+    flex-direction: column;
+    margin: 0 0 32px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+}
+
+.faq-nav .nav-link {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 13px 16px;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    color: #616161;
+    transition: background-color 0.2s ease;
+}
+
+.faq-nav .nav-link:hover {
+    background-color: #f6f6f6;
+}
+
+.faq-nav .nav-link.active {
+    background-color: #f6f6f6;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.faq-nav .nav-link:last-of-type {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom: 0;
+}
+
+.faq-nav .nav-link i.mdi {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.tab-content {
+    height: 100%;
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.tab-content p {
+    color: #616161;
+    margin-bottom: 16px;
+}
+
+.tab-content p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* end services seo menu */
