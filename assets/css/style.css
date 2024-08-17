@@ -11,6 +11,28 @@ img{
     height: auto;
 }
 
+/* global */
+.section_title_box{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.section_title_box .pre_title{
+    margin-bottom: 20px;
+}
+
+.section_title_box .pre_title span{
+    background:blue;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 15px;;
+    font-size: 1rem;
+}
+
+.section_title_box .section_title h2{
+    font-size: 2.4rem;
+}
+
 /* navigation */
 
 .auth-box{
@@ -73,7 +95,74 @@ img{
     background: red;
     padding: 20px;
     border-radius: 10px;
-    /*! display: flex; */
-    /*! justify-content: center; */
     margin-bottom: 20px;
 }
+
+/* why us */
+
+.why_us_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.why_us_text_box{
+    max-width: 90%;
+}
+
+.why_us_title {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.before__cheap::before{
+    position: absolute;
+    top: -115px;
+    left: -75px;
+    content: "CHEAP";
+    width: 100%;
+    height: auto;
+    font-size: 8rem;
+    opacity: 0.06;
+    z-index: -1;
+}
+
+.before__fast::before{
+    position: absolute;
+    top: -115px;
+    left: 75px;
+    content: "FAST";
+    width: 100%;
+    height: auto;
+    font-size: 8rem;
+    opacity: 0.06;
+    z-index: -1;
+}
+
+.before__secured::before{
+    position: absolute;
+    top: -115px;
+    left: -75px;
+    content: "SECURED";
+    width: 100%;
+    height: auto;
+    font-size: 8rem;
+    opacity: 0.06;
+    z-index: -1;
+}
+
+.why_us_title::after{
+    position: absolute;
+    bottom: -5px;
+    content: "";
+    width: 175px;
+    height: 3px;
+    background-color: red;
+    z-index: -1;
+}
+
+.why_us_title h3{
+    font-size: 2.4rem;
+}
+/* end why us */
